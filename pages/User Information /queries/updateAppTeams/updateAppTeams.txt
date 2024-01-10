@@ -1,0 +1,6 @@
+{
+    "customer_name": "{{CustomerName.text}}",
+    "ae_email": "{{AE_Email.text}}",
+    "pl_email": "{{PL_Email.text}}",
+    "pa_email": "{{PA_Email.text}}"
+}
