@@ -33,7 +33,9 @@
               "name": "getAppTeams",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.customer"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
