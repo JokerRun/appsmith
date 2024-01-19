@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 550,
+          "bottomRow": 860,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -34,7 +34,17 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.URL.queryParams.customer"
+                "appsmith.URL.queryParams.company"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "User Information _getCsmSheduler",
+              "name": "getCsmSheduler",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.company"
               ],
               "timeoutInMillisecond": 10000
             }
